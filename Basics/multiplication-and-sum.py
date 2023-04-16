@@ -33,3 +33,17 @@ if product <= 1000:
     print(product)
 else:
     print(sum)
+
+
+# With functions and return
+
+def sum_or_multiplicaion(a, b):
+    product = a * b
+    if product <= 1000:
+        return product
+    else:
+        return a + b
+
+
+result = sum_or_multiplicaion(1, 100)
+print("The result is: ", result)

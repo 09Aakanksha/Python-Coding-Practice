@@ -13,4 +13,4 @@ monthConversions = {
     "Dec": "December"
 }
 
-print(monthConversions["Jan"])
+print(monthConversions.get("Dec", "Not a valid month"))
