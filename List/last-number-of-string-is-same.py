@@ -1,13 +1,24 @@
-# Exercise 5: Check if the last number of two lists are the same.
+# Exercise 5: Check if the first and last number of a list is the same
 #
+# Write a function to return True if the first and last number of a given list is same. If numbers are different then return False.
+#
+# Given:
+#
+# numbers_x = [10, 20, 30, 40, 10]
+# numbers_y = [75, 65, 35, 75, 30]
+#
+# Expected Output:
+#
+# Given list: [10, 20, 30, 40, 10]
+# result is True
+#
+# numbers_y = [75, 65, 35, 75, 30]
+# result is False
 
-x = [1, 2, 3, 4, 6, 9]
-y = [1, 3, 6, 4, 5]
+list = [1, 2, 3, 2, 2]
+n = len(list)
 
-n = len(x)
-m = len(y)
-
-if x[n - 1] == y[m - 1]:
-    print("True")
+if list[0] == list[n - 1]:
+    print("Result is True.")
 else:
-    print("False")
+    print("Result is False.")
