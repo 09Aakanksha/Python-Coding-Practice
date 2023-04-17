@@ -34,4 +34,7 @@ while n > 0:
     n = n // 10
     reverse = reverse * 10 + remainder
 
-print("Original number was", original, "! Reverse of this number is", reverse, ".")
+if reverse == original:
+    print("Number is a palindrome")
+else:
+    print("Number is not a palindrome")
