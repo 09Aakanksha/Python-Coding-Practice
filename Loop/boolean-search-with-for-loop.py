@@ -3,8 +3,9 @@
 list = [1, 2, 3, 4, 5]
 found = False
 
+a = int(input("Enter the number to be searched: "))
 for i in list:
-    if i == 6:
+    if i == a:
         found = True
 
 if found == True:
